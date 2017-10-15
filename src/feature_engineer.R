@@ -233,7 +233,7 @@ selected_boruta <- cbind(selected_boruta,data_filtered_8477[8477])
 
 # Write boruta selected features ------------------------------------------
 
-write.arff(selected_boruta,file="selected_boruta.arff",eol = "\n", relation = deparse(substitute(selected_boruta)))
+write.arff(selected_boruta,file="boruta_selected_features.arff",eol = "\n", relation = deparse(substitute(selected_boruta)))
 
 
 
